@@ -1,0 +1,246 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Descrição do meu web site">
+        <meta name="keywords" content="Palavras,chaves,separadas,por,virgulas">
+        <meta name="author" content="Gustavo Barcelos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&family=PT+Sans+Narrow&family=Russo+One&display=swap" rel="stylesheet">
+
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html,body{
+                height: 100%;
+            }
+            .clear{clear: both;}
+            .container{
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            /*Header*/
+            header{
+                width: 100%;
+                padding: 20px 0;
+                background-image: url(Imagens/fundo-header.jpg);
+            }
+            .img-logo{
+                float: left;
+            }
+           .img-logo img{
+               width: 250px;
+           }
+           header .menu{
+               width: 45%;
+               float:right;
+               margin-top:20px;
+           }
+           header nav ul{
+               list-style: none;
+               position: relative;
+               top:50%;
+           }
+           header nav ul li{
+               float: left;
+               width: 25%;
+               text-align: center;
+               padding:10px;
+           }
+           header nav ul li a{
+               text-decoration: none;
+               font-size:25px;
+               font-family: 'Russo One', sans-serif;
+               color:black;
+               width: 100%;
+               display: inline-block;
+           }
+           header a:hover{
+                background-color: #a7a7a715;
+                color:#353030;
+                border-radius:10px;
+                -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+            }          
+           /*Fim header*/
+
+           /*Parte 1 */
+           .parte1{
+               background-color: #efefef;
+               padding:40px 0 30px 0;
+           }
+           .parte1 > .container{
+                display:flex;
+               flex-direction: row;
+               align-items: center;
+           }
+
+            .parte1 .empresa{
+                width: 50%;
+                padding-top:30%;
+                background-image: url(Imagens/Predio.jpg);
+                background-size:cover;
+                -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+                border-radius: 10px;
+            }
+
+            .parte1 .texto-empresa{
+                width: 45%;
+                padding-left: 40px;
+                font-family: 'PT Sans Narrow', sans-serif;
+            }
+            .parte1 .texto-empresa h2{
+                font-size:30px;
+                margin-bottom:15px;
+            }
+            .parte1 .texto-empresa p{
+                font-size:17px;
+                line-height: 23px;
+            }
+            /*Fim-parte1*/
+            
+            /*parte2*/
+            .parte2{
+                width: 100%;
+                padding-top:35%;
+                background-image: url(Imagens/Minecraft.jpg);
+                background-size: cover;
+                position: relative;
+            }
+            .parte2 > .container{
+                position: absolute;
+                top:0;
+                left:0;
+                display: flex;
+                flex-direction: row;
+               align-items:flex-end;
+            }
+
+            .parte2 .img-parte2 {
+                width: 50%;
+            }
+            .parte2 .img-parte2 img{
+                width: 70%;
+            }
+    
+            .parte2 .texto-parte2{
+                width: 50%;
+                font-family: 'Arimo', sans-serif;
+                color:white;
+            }
+            .parte2 .texto-parte2 h1{
+                font-size:35px;
+                margin-bottom:20px;
+                text-align: center;
+            }
+            .parte2 .texto-parte2 p{
+                font-size:20px;
+                display: inline-block;
+                padding:10px;
+            }
+            /*Fim parte 2*/
+
+            /*Footer*/
+            footer{
+                background-color:rgb(34, 34, 66);
+                padding:20px 0;
+                color:white;
+                font-family: 'Russo One', sans-serif;
+                font-size: 18px;
+            }
+            footer .texto-esquerda{
+                float:left;
+            }
+            footer .texto-direita{
+                float:right;
+            }
+            footer p{
+                margin-top:10px;
+            }
+        </style> 
+    
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="img-logo"> <img src="Imagens/Logo.fw.png"> </div><!--img-logo-->
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="Produtos.html">Produtos</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <div class="clear"></div><!--clear-->
+                        </ul>
+                    </nav>
+                </div><!--menu-->
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </header>
+ 
+        <div class="parte1">
+            <div class="container">
+                <div class="empresa"></div><!--empresa-->
+                <div class="texto-empresa">
+                    <h2>Uma simples ideia</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel accumsan sem. Nullam porttitor magna non orci ultrices ornare. Suspendisse nec fringilla arcu. Suspendisse justo lectus, accumsan non eros ut, ultricies ultricies nisi. Cras eu neque ac nunc feugiat lobortis a non augue. Integer in dignissim quam. Morbi ornare elit lectus, ac blandit sapien scelerisque sit amet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>Donec laoreet scelerisque malesuada. Pellentesque dictum felis vel pellentesque ultricies. In maximus pulvinar laoreet. Praesent enim ex, egestas ut varius ut, tempor sed dui. Ut vitae purus massa. Donec vehicula sit amet velit vitae facilisis. Curabitur ac posuere tellus. Sed laoreet tortor ipsum, quis sodales tellus dictum vel.</p>
+                </div><!--texto-empresa-->
+
+            </div><!--container-->
+        </div><!--Parte 1-->
+
+        <div class="parte2">
+            <div class="container">
+                <div class="img-parte2">
+                    <img src="Imagens/19-2-minecraft-characters-png.png">
+                </div><!--img-parte2-->
+                <div class="texto-parte2">
+                    <h1>Jogos para todos os tipos de jogadores</h1>
+                    <p>O sucesso que os jogos eletrônicos, ou games, vêm
+                        fazendo em todas as faixas etárias é inegável e grande
+                        parte deste sucesso só pode ser entendido com base em
+                        uma análise dos seus componentes e interrelacionamentos. Por meio do estudo sobre o perfil dos
+                        jogadores, assim como a análise das inter-relações
+                        entre os diversos fatores que fazem os games
+                        cativantes, pode-se realmente entender como as
+                        técnicas de engajamento utilizadas pelos
+                        desenvolvedores de games para redes sociais atuam.
+                        Não se deve entender, contudo, que o presente artigo se
+                        restringe à indústria de games. O maior objetivo aqui é
+                        demonstrar como os jogadores são motivados a jogar e
+                        ponderar como empregar este tipo de técnica em outras
+                        áreas. </p>
+                    <p></p>
+                </div><!--texto-parte2-->
+            </div><!--container-->
+        </div><!--parte2-->
+
+        <footer>
+            <div class="container">
+                <div class="texto-esquerda">
+                    <p>Todos os direitos reservados</p>
+                    <p>Endereço: Rua Fim do Período - cefet</p>
+                </div><!--Texto-esquerda-->
+                <div class="texto-direita">
+                    <p>E-mail: gustavo05rb@gmail.com</p>
+                    <p>Telefone: (37) 8756-9123</p>
+                </div><!--Texto-direita-->
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </footer>
+    </body>
+    
+</html>
