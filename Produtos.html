@@ -10,6 +10,7 @@
         <meta name="author" content="Gustavo Barcelos">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
         <style type="text/css">
             *{
@@ -72,6 +73,80 @@
             }          
            /*Fim header*/
 
+           /*Vendas*/
+            .vendas{
+                padding: 20px 0;
+                font-family: 'Roboto', sans-serif;
+                background-image:url(Imagens/Fundo-mario.png);
+                background-size:cover;
+                background-position: center;
+            }
+           .vendas .produto-single{
+               text-align: center;
+               width: 30%;
+               min-height: 640px;
+               background-color:#efefef ;
+               padding:20px 0;
+               border-radius:15px;
+               -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
+                float:left;
+                margin: 10px 1% ;
+           }
+           .vendas .produto-single img{
+               width:200px;
+               height:250px;
+           }
+           .vendas .produto-single h2{
+               font-size:22px;
+               margin: 20px 0 10px 0;
+           }
+           .vendas .produto-single .especificacao{
+                text-align: justify;
+                width: 90%;
+                margin:0 auto;
+            }
+           .vendas .produto-single .especificacao ul{
+               list-style: none;
+           }           
+           .vendas .produto-single .especificacao ul li{
+               margin-top:3px;
+           }
+           .vendas .produto-single input[type="submit"]{
+               padding:10px;
+               width: 200px;
+               margin-top:30px;
+               background-color:#0000ff;
+               color:white;
+               border:0;
+               border-radius:5px;
+               cursor:pointer;
+               font-size:18px;
+               font-weight: 400;
+            }
+           .vendas .produto-single input[type="submit"]:hover{
+            background: #01016e;
+           }
+
+           /*Footer*/
+           footer{
+                background-color:rgb(34, 34, 66);
+                padding:20px 0;
+                color:white;
+                font-family: 'Russo One', sans-serif;
+                font-size: 18px;
+            }
+            footer .texto-esquerda{
+                float:left;
+            }
+            footer .texto-direita{
+                float:right;
+            }
+            footer p{
+                margin-top:10px;
+            }
+            /*Fim Footer*/
         </style> 
     
     </head>
@@ -83,10 +158,10 @@
                 <div class="menu">
                     <nav>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Produtos</a></li>
-                            <li><a href="#">Sobre</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="Home.html">Home</a></li>
+                            <li><a href="Produtos.html">Produtos</a></li>
+                            <li><a href="Comunidade.html">Comunidade</a></li>
+                            <li><a href="Sobre.html">Sobre</a></li>
                             <div class="clear"></div><!--clear-->
                         </ul>
                     </nav>
@@ -96,8 +171,131 @@
         </header>
  
         <div class="vendas">
+            <div class="container">
+                <div class="produtos">
 
+                    <div class="produto-single">
+                        <img src ="Imagens/Jogo-spider.jpg" />
+                        <h2>Marvel's Spider-Man - PS4</h2>
+                        <div class="especificacao">
+                            <ul>
+                                <li><span><b>Desenvolvedora:</b> Insomniac Games</span></li>
+                                <li><span><b>Publicadora:</b> Sony</span></li>
+                                <li><span><b>Data de lançamento:</b> 07/09/2018</span></li>
+                                <li><span><b>Idiomas:</b> Português BR</span></li>
+                                <li><span><b>Legendas:</b> Português BR</span></li>
+                                <li><span><b>Idade Recomendada:</b> Maiores de 12 anos</span></li>
+                                <li><span><b>Número de jogadores offline:</b> 1</span></li>
+                                <li><span><b>Número de jogadores online:</b> -</span></li>
+                                <li><span><b>Resolução:</b> Até 1080p</span></li>
+                            </ul>
+                        </div><!--especificacao-->
+                        <form>
+                            <input type="submit" value="Comprar" name="acao" />
+                        </form>
+                    </div><!--Produto single-->
+
+                    <div class="produto-single">
+                        <img src ="Imagens/Jogo-minecraft.jpg" />
+                        <h2>Minecraft - PS4</h2>
+                        <div class="especificacao">
+                            <ul>
+                                <li><span><b>Desenvolvedora:</b> Mojang AB</span></li>
+                                <li><span><b>Publicadora:</b> Mojang AB</span></li>
+                                <li><span><b>Data de lançamento:</b> 04/09/2014</span></li>
+                                <li><span><b>Idiomas:</b> Português BR</span></li>
+                                <li><span><b>Legendas:</b> Português BR</span></li>
+                                <li><span><b>Idade Recomendada:</b> Livre para todos </span></li>
+                                <li><span><b>Número de jogadores offline:</b>  1 até 4</span></li>
+                                <li><span><b>Número de jogadores online:</b> 2 até 8 </span></li>
+                                <li><span><b>Resolução:</b> Até 1080p</span></li>
+                            </ul>
+                        </div><!--especificacao-->
+                        <form>
+                            <input type="submit" value="Comprar" name="acao" />
+                        </form>
+                    </div><!--Produto single-->
+
+                    <div class="produto-single">
+                        <img src ="Imagens/gow.jpg" />
+                        <h2>God of War - PS4</h2>
+                        <div class="especificacao">
+                            <ul>
+                                <li><span><b>Desenvolvedora:</b> Santa Monica Studio</span></li>
+                                <li><span><b>Publicadora:</b> Sony</span></li>
+                                <li><span><b>Data de lançamento:</b> 20/04/2018</span></li>
+                                <li><span><b>Idiomas:</b> Português BR</span></li>
+                                <li><span><b>Legendas:</b> Português BR</span></li>
+                                <li><span><b>Idade Recomendada:</b> Maiores de 18 anos </span></li>
+                                <li><span><b>Número de jogadores offline:</b>  1 </span></li>
+                                <li><span><b>Número de jogadores online:</b> - </span></li>
+                                <li><span><b>Resolução:</b> Até 1080p</span></li>
+                            </ul>
+                        </div><!--especificacao-->
+                        <form>
+                            <input type="submit" value="Comprar" name="acao" />
+                        </form>
+                    </div><!--Produto single-->
+
+                    <div class="produto-single">
+                        <img src ="Imagens/mk11.jpg" />
+                        <h2>Mortal Kombat 11 - PS4</h2>
+                        <div class="especificacao">
+                            <ul>
+                                <li><span><b>Desenvolvedora:</b> Shiver Games</span></li>
+                                <li><span><b>Publicadora:</b> WB Games</span></li>
+                                <li><span><b>Data de lançamento:</b> 24/04/2019</span></li>
+                                <li><span><b>Idiomas:</b> Português BR</span></li>
+                                <li><span><b>Legendas:</b> Português BR</span></li>
+                                <li><span><b>Idade Recomendada:</b> Maiores de 18 anos </span></li>
+                                <li><span><b>Número de jogadores offline:</b>  1 até 2</span></li>
+                                <li><span><b>Número de jogadores online:</b> 2 </span></li>
+                                <li><span><b>Resolução:</b> Até 1080p</span></li>
+                            </ul>
+                        </div><!--especificacao-->
+                        <form>
+                            <input type="submit" value="Comprar" name="acao" />
+                        </form>
+                    </div><!--Produto single-->
+
+                    <div class="produto-single">
+                        <img src ="Imagens/gta5.jpg" />
+                        <h2>Jogo Grand Theft Auto V (Premium Edition) - PS4</h2>
+                        <div class="especificacao">
+                            <ul>
+                                <li><span><b>Desenvolvedora:</b> Rockstar North</span></li>
+                                <li><span><b>Publicadora:</b> Rockstar Games</span></li>
+                                <li><span><b>Data de lançamento:</b> 15/06/2018</span></li>
+                                <li><span><b>Idiomas:</b> Inglês</span></li>
+                                <li><span><b>Legendas:</b> Português BR</span></li>
+                                <li><span><b>Idade Recomendada:</b> Maiores de 18 anos </span></li>
+                                <li><span><b>Número de jogadores offline:</b> 1</span></li>
+                                <li><span><b>Número de jogadores online:</b> 2 até 30 </span></li>
+                                <li><span><b>Resolução:</b> Até 1080p</span></li>
+                            </ul>
+                        </div><!--especificacao-->
+                        <form>
+                            <input type="submit" value="Comprar" name="acao" />
+                        </form>
+                    </div><!--Produto single-->
+                    <div class="clear"></div><!--clear-->
+                </div><!--Produtos-->
+            </div><!--container-->
         </div><!--vendas-->
+
+        <footer>
+            <div class="container">
+                <div class="texto-esquerda">
+                    <p>Todos os direitos reservados</p>
+                    <p>Endereço: Rua Fim do Período - cefet</p>
+                </div><!--Texto-esquerda-->
+                <div class="texto-direita">
+                    <p>E-mail: gustavo05rb@gmail.com</p>
+                    <p>Telefone: (37) 8756-9123</p>
+                </div><!--Texto-direita-->
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </footer>
     </body>
     
 </html>
