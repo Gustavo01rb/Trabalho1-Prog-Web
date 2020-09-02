@@ -10,6 +10,7 @@
         <meta name="author" content="Gustavo Barcelos">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
         <style type="text/css">
             *{
@@ -39,9 +40,10 @@
                width: 250px;
            }
            header .menu{
-               width: 45%;
+               width: 48%;
                float:right;
                margin-top:20px;
+               
            }
            header nav ul{
                list-style: none;
@@ -56,7 +58,7 @@
            }
            header nav ul li a{
                text-decoration: none;
-               font-size:25px;
+               font-size:20px;
                font-family: 'Russo One', sans-serif;
                color:black;
                width: 100%;
@@ -71,7 +73,73 @@
                 box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
             }          
            /*Fim header*/
-
+            /*Forum*/
+            .forum{
+                background-image:url(Imagens/Kame-house.jpg);
+                background-position:center;
+                background-size:cover;
+                background-repeat: no-repeat ;
+            }
+            .forum > .container{
+                width: 95%;
+                padding:20px 0;
+                font-family: 'Lato', sans-serif;
+            }
+            .forum .noticia{
+                background-color:#efefef;
+                padding:10px;
+                text-align: center;
+                display:flex;
+                flex-direction: row-reverse;
+                border-radius:10px;
+                margin:50px 0;
+            }
+            .forum .noticia .artigo{
+                width: 70%;
+            }
+            .forum .noticia .artigo .texto-artigo{
+                text-align: justify;
+                font-size:18px;
+                width: 98%;
+                padding:10px;
+            }
+            .forum .noticia .artigo .texto-artigo p{
+                margin-top:10px;
+            }
+            .visual{
+                width: 40%;
+                padding-top: calc(33.33% * 0.6);
+                background-color:#cccccc;
+                position: relative;
+                border-radius:10px;
+                overflow: hidden;
+            }
+            .visual iframe{
+                width:100%;
+                height:100%;
+                position: absolute;
+                top:0;
+                left:0;
+            }
+            /*Fim-forum*/
+            /*Footer*/
+           footer{
+                background-color:rgb(34, 34, 66);
+                padding:20px 0;
+                color:white;
+                font-family: 'Russo One', sans-serif;
+                font-size: 18px;
+            }
+            footer .texto-esquerda{
+                float:left;
+            }
+            footer .texto-direita{
+                float:right;
+            }
+            footer p{
+                margin-top:10px;
+            }
+            /*Fim Footer*/
         </style> 
     
     </head>
@@ -94,7 +162,96 @@
                 <div class="clear"></div><!--clear-->
             </div><!--container-->
         </header>
- 
+        
+        <div class="forum">
+            <div class="container">
+                <div class="noticia" >
+                    
+                    <div class="visual">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/3EmU3PmLThc" frameborder="0"    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div><!--visual-->
+
+                    <div class="artigo">
+                        <h2>Tony Hawk's 1+2: 'Confisco', de Charlie Brown Jr, ganha clipe oficial</h2>
+                        <div class="texto-artigo">
+                            <p>Para promover o lançamento de Tony Hawk's Pro Skater 1+2, a banda Charlie Brown Jr. lançou o clipe inédito do hit "Confisco", música que estará presente no novo game da franquia. Com imagens selecionadas entre mais de 170 horas de material, o vídeo traz trechos marcantes com a banda e com o ex-vocalista <b>Chorão</b>, cedidos pelo seu filho Alexandre Abrão.</p>
+                            <p>“As imagens são conteúdos nunca antes vistos do acervo pessoal do meu pai. Se é para quebrar a internet, vamos quebrar a internet. Se é para comemorar a música do Charlie Brown Jr. na trilha do Tony Hawk’s Pro Skater 1 + 2, bora lançar um novo video clipe de Confisco com material 100% inédito. Então liberei 100 fitas mini-dv com material inédito do meu coroa e da banda”, comentou Alexandre, reforçando a importância que o esporte teve para sua família.</p>
+                            <p>O clipe, que funciona como um documentário-homenagem ao ex-vocalista, foi compartilhado pela conta oficial do PlayStation Brasil e no canal oficial do Charlie Brown Jr., como resultado de uma parceria entre o grupo e a agência de publicidade CP+B Brasil.</p>
+                            <p>Quando vimos a mobilização dos fãs brasileiros para trazer o Charlie Brown Jr. Para a trilha sonora, sabíamos que tínhamos que fazer com que isso fosse parte do legado desse remaster”, afirmou Michelle Bresaw, vice presidente de Emerging Franchises da Activision. </p>
+                            <p>Tony Hawk’s Pro Skater 1 + 2 será lançado em 4 de setembro para PlayStation 4, Xbox One e PC.</p>
+                        </div><!--texto-artigo-->
+                    </div><!--artigo-->
+            
+                </div><!--noticia-->
+
+                <div class="noticia" style="flex-direction: row;">
+                    
+                    <div class="visual">
+                        <iframe width="672" height="378" src="https://www.youtube.com/embed/A4swl1VObu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div><!--visual-->
+
+                    <div class="artigo">
+                        <h2>The Sims 4 terá expansão temática de Star Wars</h2>
+                        <div class="texto-artigo">
+                            <p>The Sims 4 pode estar em uma vizinhança muito, muito distante no dia 8 de setembro, já que acaba de anunciar uma parceria com a franquia Star Wars. Intitulado de Star Wars: Journey to Battu, a expansão foi anunciada durante a abertura da Gamescom 2020, na tarde desta quinta-feira (27).</p>
+                            <p>A descrição oficial da expansão sugere que será possível empunhar até sabres de luz, além de engajar em diferentes missões e trombar com icônicos personagens dos filmes, como Rey e Kylo Ren.</p>
+                            <p>Vale ressaltar que à medida que a reputação do seu Sims for aumentando durante a jogatina, será possível desbloquear Dróides pessoais, novas roupas e até criar o seu próprio sabre de luz, já imaginou?</p>
+                            <p>Star Wars: Journey to Battu será lançado no dia 8 de setembro para PS4, Xbox One e PC. É importante mencionar que para ter acesso ao conteúdo o jogador terá que possuir The Sims 4 e todas as atualizações do game. Fiquem ligados no Voxel para mais novidades!</p>
+                        </div><!--texto-artigo-->
+                    </div><!--artigo-->
+            
+                </div><!--noticia-->
+
+                <div class="noticia" >
+                    
+                    <div class="visual" style="background-image:url(Imagens/noticia-ps-plus.jpg); background-size: cover;"></div><!--visual-->
+
+                    <div class="artigo">
+                        <h2>PS Plus de setembro terá PUBG e Street Fighter V</h2>
+                        <div class="texto-artigo">
+                           <p>A PS Plus traz todo mês títulos interessantes para os jogadores do console da Sony, e no dia (26/08), uma publicação do Playstation.Blog confirmou que os jogos gratuitos do serviço em setembro irão incluir o famoso battle royale PUBG e Street Fighter V.</p>
+                           <p>Para quem quiser aproveitar, os games estarão disponíveis de 01 de setembro até 05 de outubro. E se você já é assinante, não se esqueça de aproveitar os títulos de agosto, que incluem o hilário Fall Guys: Ultimate Knockout e Call of Duty: Modern Warfare 2 Campaign Remastered.</p>
+                           <p>Não vai perder essa oportunidade heimm!</p>
+                        </div><!--texto-artigo-->
+                    </div><!--artigo-->
+            
+                </div><!--noticia-->
+
+                <div class="noticia" style="flex-direction: row;">
+                    
+                    <div class="visual">
+                        <iframe width="704" height="396" src="https://www.youtube.com/embed/85H8jT_sBRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div><!--visual-->
+
+                    <div class="artigo">
+                        <h2>Cyberpunk 2077: gameplay revela os três começos possíveis do jogo</h2>
+                        <div class="texto-artigo">
+                            <p>Durante o evento Night City Wire, a CD Projekt Red mostrou muitos detalhes da história de Cyberpunk 2077. Na tranmissão ao vivo, vemos as três escolhas que os jogadores terão logo no começo do game: qual será o plano de fundo da história do personagem V, que pode ser um Nômade, um Street Kid (garoto que cresce nas ruas) ou Corp.</p>
+                            <p>A parte mais interessante desta escolha é que ela mudará completamente o começo do jogo, já que o personagem começará em partes bem distantes do mapa e conhecerá personagens muito distintos. O Nômade começa nas áreas longínquas do deserto, enquanto o Street Kid começa nos subúrbios e o Corp terá o começo da aventura como um membro de uma das grandes empresas do jogo.</p>
+                            <p>Durante a live, o produtor deu um exemplo de como essas coisas podem mudar. Em uma missão opcional, o jogador deve roubar um carregamento de uma grande companhia. O Street Kid não terá experiência para saber as reais intenções dos inimigos de cargo alto, enquanto o Corp saberá toda a linha de relacionamentos e o real objetivo de quem passa a missão. Em contrapartida, em outra missão que envolve substâncias ilícitas, o Street Kid sabe muito mais sobre o assunto, enquanto o Corp não.</p>
+                            <p>Contudo, o produtor reforçou que fazer essa escolha não o impede de realizar certas atividades e conhecer alguns personagens de Cyberpunk 2077, já que apenas a ordem dos eventos será alterada. Portanto, será possível visitar os desertos perto de Night City ou encontrar personagens que Street Kid ou Nômade conhecem no começo da campanha como um Corp.</p>
+                            <p>Cyberpunk 2077 chegará no dia 19 de novembro de 2020 ao PS4, Xbox One e PC.</p>
+                        </div><!--texto-artigo-->
+                    </div><!--artigo-->
+            
+                </div><!--noticia-->
+
+            </div><!--container-->    
+        </div><!--forum-->
+
+        <footer>
+            <div class="container">
+                <div class="texto-esquerda">
+                    <p>Todos os direitos reservados</p>
+                    <p>Endereço: Rua Fim do Período - cefet</p>
+                </div><!--Texto-esquerda-->
+                <div class="texto-direita">
+                    <p>E-mail: gustavo05rb@gmail.com</p>
+                    <p>Telefone: (37) 8756-9123</p>
+                </div><!--Texto-direita-->
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </footer>
     </body>
     
 </html>
