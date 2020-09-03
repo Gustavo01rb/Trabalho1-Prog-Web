@@ -10,6 +10,7 @@
         <meta name="author" content="Gustavo Barcelos">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
         <style type="text/css">
             *{
@@ -72,6 +73,174 @@
                 box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
             }          
            /*Fim header*/
+           /*parte1*/
+           .parte1{
+               padding: 50px 0;
+               font-family: 'Roboto', sans-serif;
+               background-color:#efefef;
+           }
+           .parte1 h1{
+            font-size:40px;
+            margin-bottom:20px;
+           }
+           .parte1 .texto1{
+              margin-bottom:20px;
+           }
+           .parte1 .texto1 p{
+               font-size:18px;
+               line-height: 23px;
+               margin-top: 5px;
+               font-weight: 400;
+           }
+
+           .parte1 .img-mosaico{
+               width: 45%;
+               padding-top: 25%;
+               float:left;
+               background-position:center;
+               background-size:cover;
+               background-repeat:no-repeat;
+               margin-left:2.5%;
+               border-radius: 10px;
+               -webkit-box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 22px -6px rgba(0,0,0,0.75);
+           }
+           /*fim parte1*/
+
+           /*parte2*/
+           .parte2{
+               background-image: url(Imagens/Fundo-dbz.png);
+               background-position:center;
+               background-size:cover;
+               background-repeat:no-repeat ;
+           }
+           .parte2 > .container{
+               display:flex;
+               flex-direction: row-reverse;
+               align-items: center;
+           }
+           .parte2 .img-equipe{
+                background-image: url(Imagens/equipe.png);
+               background-position:center;
+               background-size:cover;
+               background-repeat:no-repeat ;
+               width: 50%;
+               padding-top:50%;
+           }
+           .parte2 .texto-parte2{
+               width: 50%;
+               color:white;
+               font-family: 'Roboto', sans-serif;
+                background-color: rgba(0, 0, 0, 0.473);
+                padding:15px;
+                border-radius:10px;
+           }
+           /*Fim parte2*/
+           /*Parte3*/
+           .parte3{
+                width: 100%;
+                padding: 30px 0;
+                background-color: #efefef;
+            }
+            .parte3 .formulario{
+                width:50%;
+                color:black;
+                float: left;
+            }
+            .parte3 .formulario h2{
+                font-size: 40px;
+                font-weight: 300;
+            }
+            .parte3 .formulario p{
+                width: 80%;
+                margin-top: 30px;
+                font-weight: 300;
+                font-size: 15px;
+            }
+            .parte3 .formulario form{
+                margin-top: 20px;
+            }
+            .parte3 .formulario input[type="text"], .parte3 .formulario input[type="email"]{
+                width: 80%;
+                height: 60px;
+                padding-left: 15px;
+                margin-top: 10px;
+                border:1px solid #ccc;
+                border-radius: 7px;
+                -webkit-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+            }
+            .parte3 .formulario textarea{
+                width: 80%;
+                height: 220px;
+                padding: 20px;
+                resize: none;
+                margin-top:10px;
+                border-radius: 10px;
+                border:1px solid #ccc;
+                -webkit-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+            }
+            .parte3 .formulario input[type="text"]:focus, .parte3 .formulario           input[type="email"]:focus,.parte3 .formulario textarea:focus{
+                outline:0;
+            }
+            .parte3 .formulario input[type="submit"]{
+                width: 150px;
+                padding: 10px;
+                background-color: #1C1C1C;
+                border-radius: 40px;
+                cursor: pointer;
+                color: white;
+                border: 0;
+                margin-top: 10px;
+                -webkit-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+            }
+            .parte3 .formulario input[type="submit"]:hover{
+                background-color: #1d1c1c;
+            }
+            .parte3 .visit{
+                float: right;
+                width: 50%;
+                color: black;
+            }
+            .parte3 .visit h2{
+                font-size: 40px;
+                font-weight: 300;
+                margin-bottom: 30px;
+            }
+            .parte3 .visit .map{
+                width: 100%;
+                margin: 0 auto;
+                border: 0;
+                -webkit-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.75);
+                border-style: outset;
+            }
+            /*fim-parte*/
+            /*Footer*/
+           footer{
+                background-color:rgb(34, 34, 66);
+                padding:20px 0;
+                color:white;
+                font-family: 'Russo One', sans-serif;
+                font-size: 18px;
+            }
+            footer .texto-esquerda{
+                float:left;
+            }
+            footer .texto-direita{
+                float:right;
+            }
+            footer p{
+                margin-top:10px;
+            }
+            /*Fim Footer*/
 
         </style> 
     
@@ -95,7 +264,71 @@
                 <div class="clear"></div><!--clear-->
             </div><!--container-->
         </header>
- 
+        
+        <div class="parte1">
+            <div class="container">
+                <h1>Um começo humilde</h1>
+                <div class="texto1">
+                    <p>In imperdiet dui erat, commodo vehicula augue imperdiet a. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Proin at fermentum arcu. Vivamus molestie dictum velit, eget elementum orci accumsan a. Nunc et turpis purus. Nulla  faucibus magna lacus. Morbi quis facilisis tortor. Quisque id fringilla mauris, vitae posuere ipsum. Curabitur urna  libero, feugiat sit amet nibh vitae, condimentum tempor tortor. Nulla blandit pharetra diam quis dictum. Donec eu    dignissim elit. Nunc nunc augue, tincidunt et dignissim nec, auctor ac est. Mauris rutrum nulla sed turpis pharetra, at    porttitor augue pharetra. Aliquam tristique magna vitae mattis tincidunt.</p>
+                    <p>Phasellus euismod quam elit, at varius nunc gravida in. Suspendisse id orci eu ipsum viverra congue. Maecenas et     dapibus ligula. Donec vel mauris risus. Sed eu urna elit. Nullam convallis risus at tortor aliquet hendrerit. Aliquam   nibh justo, egestas non sagittis nec, porttitor et dolor. Praesent id hendrerit mi, quis condimentum metus. Mauris vel    massa vitae lorem mattis varius sed vitae velit. Nulla id vehicula nibh, ac pulvinar enim. Aenean lacus nunc, aliquet  quis accumsan in, semper quis diam. Donec tincidunt lorem ac urna dictum aliquam. Donec sit amet consectetur odio.</p>
+                </div>
+                <div class="mosaico">
+                    <div class="img-mosaico" style="background-image: url(Imagens/Garagem.jpg);"></div><!--img-mosaico-->
+                    <div class="img-mosaico" style="background-image: url(Imagens/Garagem2.webp);"></div><!--img-mosaico-->
+                </div><!--mosaico-->
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </div><!--parte1-->
+        <div class="parte2">
+            <div class="container">
+                <div class="img-equipe"></div><!--img-equipe-->
+                <div class="texto-parte2">
+                    <h2>Uma equipe cada vez mais unida</h2>
+                    <p>Quisque imperdiet auctor nibh, at viverra ex ullamcorper cursus. Aliquam tincidunt risus sit amet porttitor convallis. Etiam aliquet arcu eget lectus aliquam, in sagittis nisl dignissim. Nullam rutrum dolor in neque maximus, a tincidunt risus gravida. Suspendisse interdum vestibulum egestas. Mauris lorem erat, bibendum sit amet purus sit amet, feugiat suscipit mi. Curabitur lectus ante, suscipit non turpis et, pulvinar blandit nisi. Quisque elit elit, pellentesque ac urna sed, consequat condimentum sem. Nam quis malesuada lorem. Fusce et lacinia urna, a varius erat. Praesent feugiat enim sit amet scelerisque venenatis. Nam gravida luctus dolor, at pellentesque purus efficitur id. Praesent nec vulputate justo, nec ullamcorper eros.</p>
+                    <p>Quisque imperdiet auctor nibh, at viverra ex ullamcorper cursus. Aliquam tincidunt risus sit amet porttitor convallis. Etiam aliquet arcu eget lectus aliquam, in sagittis nisl dignissim. Nullam rutrum dolor in neque maximus, a tincidunt risus gravida. Suspendisse interdum vestibulum egestas. Mauris lorem erat, bibendum sit amet purus sit amet, feugiat suscipit mi. Curabitur lectus ante, suscipit non turpis et, pulvinar blandit nisi. Quisque elit elit, pellentesque ac urna sed, consequat condimentum sem. Nam quis malesuada lorem. Fusce et lacinia urna, a varius erat. Praesent feugiat enim sit amet scelerisque venenatis. Nam gravida luctus dolor, at pellentesque purus efficitur id. Praesent nec vulputate justo, nec ullamcorper eros.</p>
+                </div><!--texto-parte2-->
+            </div><!--container-->
+        </div><!--parte2-->
+
+        <div class="parte3">
+            <div class="container">
+                
+                <div class="formulario">
+                    <h2>Entre em contato</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam scelerisque lobortis iaculis. In hac habitasse platea dictumst. Cras vitae purus metus.</p>
+
+                    <form>
+                        <input type="text" name="nome" placeholder="Nome*">
+                        <input type="email" name="email" placeholder="E-mail*">
+                        <textarea name="mensagem" placeholder="Mensagem*"></textarea>
+                        <div class="clear"></div>
+                        <div><input type="submit" value="Enviar"></div>
+                    </form>
+                </div><!--formulario-->
+                
+                <div class="visit">
+                    <h2>Faça um visita</h2>
+                    
+                    <div class="map">
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="685" height="499" id="gmap_canvas" src="https://maps.google.com/maps?q=pitangui&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/"></a></div><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div>
+                    </div><!--map-->
+                </div><!--visit--> 
+                <div class=clear></div>
+            </div><!--container-->
+        </div><!--parte3-->
+        <footer>
+            <div class="container">
+                <div class="texto-esquerda">
+                    <p>Todos os direitos reservados</p>
+                    <p>Endereço: Rua Fim do Período - cefet</p>
+                </div><!--Texto-esquerda-->
+                <div class="texto-direita">
+                    <p>E-mail: gustavo05rb@gmail.com</p>
+                    <p>Telefone: (37) 8756-9123</p>
+                </div><!--Texto-direita-->
+                <div class="clear"></div><!--clear-->
+            </div><!--container-->
+        </footer>
     </body>
     
 </html>
