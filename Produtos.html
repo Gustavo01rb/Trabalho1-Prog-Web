@@ -9,146 +9,11 @@
         <meta name="keywords" content="Palavras,chaves,separadas,por,virgulas">
         <meta name="author" content="Gustavo Barcelos">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link href="CSS/estilo.css" type="text/css" rel="stylesheet" />
+        <link href="CSS/Produtos.css" type="text/css" rel="stylesheet" />
+        <link href="CSS/responsivo.css" type="text/css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-        <style type="text/css">
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-            html,body{
-                height: 100%;
-            }
-            .clear{clear: both;}
-            .container{
-                width: 90%;
-                margin: 0 auto;
-            }
-
-            /*Header*/
-            header{
-                width: 100%;
-                padding: 20px 0;
-                background-image: url(Imagens/fundo-header.jpg);
-            }
-            .img-logo{
-                float: left;
-            }
-           .img-logo img{
-               width: 250px;
-           }
-           header .menu{
-               width: 48%;
-               float:right;
-               margin-top:20px;
-               
-           }
-           header nav ul{
-               list-style: none;
-               position: relative;
-               top:50%;
-           }
-           header nav ul li{
-               float: left;
-               width: 25%;
-               text-align: center;
-               padding:10px;
-           }
-           header nav ul li a{
-               text-decoration: none;
-               font-size:20px;
-               font-family: 'Russo One', sans-serif;
-               color:black;
-               width: 100%;
-               display: inline-block;
-           }
-           header a:hover{
-                background-color: #a7a7a715;
-                color:#353030;
-                border-radius:10px;
-                -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
-                -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
-                box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
-            }          
-           /*Fim header*/
-
-           /*Vendas*/
-            .vendas{
-                padding: 20px 0;
-                font-family: 'Roboto', sans-serif;
-                background-image:url(Imagens/Fundo-mario.png);
-                background-size:cover;
-                background-position: center;
-            }
-           .vendas .produto-single{
-               text-align: center;
-               width: 30%;
-               min-height: 640px;
-               background-color:#efefef ;
-               padding:20px 0;
-               border-radius:15px;
-               -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
-                -moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
-                box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
-                float:left;
-                margin: 10px 1% ;
-           }
-           .vendas .produto-single img{
-               width:200px;
-               height:250px;
-           }
-           .vendas .produto-single h2{
-               font-size:22px;
-               margin: 20px 0 10px 0;
-           }
-           .vendas .produto-single .especificacao{
-                text-align: justify;
-                width: 90%;
-                margin:0 auto;
-            }
-           .vendas .produto-single .especificacao ul{
-               list-style: none;
-           }           
-           .vendas .produto-single .especificacao ul li{
-               margin-top:3px;
-           }
-           .vendas .produto-single input[type="submit"]{
-               padding:10px;
-               width: 200px;
-               margin-top:30px;
-               background-color:#0000ff;
-               color:white;
-               border:0;
-               border-radius:5px;
-               cursor:pointer;
-               font-size:18px;
-               font-weight: 400;
-            }
-           .vendas .produto-single input[type="submit"]:hover{
-            background: #01016e;
-           }
-
-           /*Footer*/
-           footer{
-                background-color:rgb(34, 34, 66);
-                padding:20px 0;
-                color:white;
-                font-family: 'Russo One', sans-serif;
-                font-size: 18px;
-            }
-            footer .texto-esquerda{
-                float:left;
-            }
-            footer .texto-direita{
-                float:right;
-            }
-            footer p{
-                margin-top:10px;
-            }
-            /*Fim Footer*/
-        </style> 
     
     </head>
 
@@ -173,6 +38,13 @@
  
         <div class="vendas">
             <div class="container">
+                <div class="wraper">
+                    <div class="console">
+                        <div class="img-console"></div><!--img-console-->
+                        <h2>Jogos para Playstation 4 (PS4)</h2>
+                    </div><!--console-->
+                </div><!--wraper-->
+
                 <div class="produtos">
 
                     <div class="produto-single">
@@ -261,7 +133,7 @@
 
                     <div class="produto-single">
                         <img src ="Imagens/gta5.jpg" />
-                        <h2>Jogo Grand Theft Auto V (Premium Edition) - PS4</h2>
+                        <h2>Grand Theft Auto V - PS4</h2>
                         <div class="especificacao">
                             <ul>
                                 <li><span><b>Desenvolvedora:</b> Rockstar North</span></li>
@@ -279,6 +151,8 @@
                             <input type="submit" value="Comprar" name="acao" />
                         </form>
                     </div><!--Produto single-->
+
+                    
                     <div class="clear"></div><!--clear-->
                 </div><!--Produtos-->
             </div><!--container-->

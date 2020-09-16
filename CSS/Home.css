@@ -1,0 +1,85 @@
+ /*Parte 1 */
+ .parte1{
+    background-color: #efefef;
+    padding:40px 0 30px 0;
+}
+.parte1 > .container{
+     display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ .parte1 .empresa{
+     width: 50%;
+     padding-top:30%;
+     background-image: url(../Imagens/Predio.jpg);
+     background-size:cover;
+     -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+     border-radius: 10px;
+ }
+
+ .parte1 .texto-empresa{
+     width: 45%;
+     padding-left: 40px;
+     font-family: 'PT Sans Narrow', sans-serif;
+ }
+ .parte1 .texto-empresa h2{
+     font-size:30px;
+     margin-bottom:15px;
+ }
+ .parte1 .texto-empresa p{
+     font-size:17px;
+     line-height: 23px;
+ }
+ /*Fim-parte1*/
+ 
+ /*parte2*/
+ .parte2{
+     width: 100%;
+     padding-top:35%;
+     background-image: url(../Imagens/Minecraft.jpg);
+     background-size: cover;
+     position: relative;
+ }
+ .parte2 > .container{
+     position: absolute;
+     top:0;
+     left:0;
+     display: flex;
+     flex-direction: row;
+    align-items:center;
+ }
+
+ .parte2 .img-parte2 {
+     width: 50%;
+     padding-top:40%;
+     background-image: url(../Imagens/19-2-minecraft-characters-png.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+
+ .parte2 .texto-parte2{
+     width: 50%;
+     font-family: 'Arimo', sans-serif;
+     color:white;
+     background-color: rgba(116, 72, 27, 0.685);
+     border-radius:10px;
+     padding:5px;
+     -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.75);
+ }
+ .parte2 .texto-parte2 h1{
+     font-size:35px;
+     margin-bottom:20px;
+     text-align: center;
+ }
+ .parte2 .texto-parte2 p{
+     font-size:20px;
+     display: inline-block;
+     padding:10px;
+ }
+ /*Fim parte 2*/

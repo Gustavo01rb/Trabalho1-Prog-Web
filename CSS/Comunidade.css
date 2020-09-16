@@ -1,0 +1,49 @@
+ /*Forum*/
+ .forum{
+    background-image:url(../Imagens/Kame-house.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat ;
+}
+.forum > .container{
+    width: 95%;
+    padding:20px 0;
+    font-family: 'Lato', sans-serif;
+}
+.forum .noticia{
+    background-color:#efefef;
+    padding:10px;
+    text-align: center;
+    display:flex;
+    flex-direction: row-reverse;
+    border-radius:10px;
+    margin:50px 0;
+}
+.forum .noticia .artigo{
+    width: 70%;
+}
+.forum .noticia .artigo .texto-artigo{
+    text-align: justify;
+    font-size:18px;
+    width: 98%;
+    padding:10px;
+}
+.forum .noticia .artigo .texto-artigo p{
+    margin-top:10px;
+}
+.visual{
+    width: 40%;
+    padding-top: calc(33.33% * 0.6);
+    background-color:#cccccc;
+    position: relative;
+    border-radius:10px;
+    overflow: hidden;
+}
+.visual iframe{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/*Fim-forum*/

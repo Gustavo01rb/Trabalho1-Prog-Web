@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.clear{clear: both;}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+ /*Header*/
+ header{
+    width: 100%;
+    padding: 20px 0;
+    background-image: url(../Imagens/fundo-header.jpg);
+}
+.img-logo{
+    float: left;
+}
+.img-logo img{
+   width: 250px;
+}
+header .menu{
+   width: 48%;
+   float:right;
+   margin-top:20px;
+   
+}
+header nav ul{
+   list-style: none;
+   position: relative;
+   top:50%;
+}
+header nav ul li{
+   float: left;
+   width: 25%;
+   text-align: center;
+   padding:10px;
+}
+header nav ul li a{
+   text-decoration: none;
+   font-size:20px;
+   font-family: 'Russo One', sans-serif;
+   color:black;
+   width: 100%;
+   display: inline-block;
+}
+header a:hover{
+    background-color: #a7a7a715;
+    color:#353030;
+    border-radius:10px;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}          
+/*Fim header*/
+
+ /*Footer*/
+ footer{
+    background-color:rgb(34, 34, 66);
+    padding:20px 0;
+    color:white;
+    font-family: 'Russo One', sans-serif;
+    font-size: 18px;
+}
+footer .texto-esquerda{
+    float:left;
+}
+footer .texto-direita{
+    float:right;
+}
+footer p{
+    margin-top:10px;
+}
+/*Fim Footer*/

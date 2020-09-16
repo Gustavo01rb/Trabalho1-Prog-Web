@@ -1,0 +1,90 @@
+ /*Vendas*/
+ .vendas{
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    background-image:url(../Imagens/Fundo-mario.png);
+    background-size:cover;
+    background-position: center;
+}
+.vendas .wraper{
+    width:80%;
+    text-align: center;
+    background-color:rgba(226, 226, 226, 0.562);
+    margin:40px 20px;
+    padding: 5px 10px;
+    border-radius: 17px 15px 126px 18px;
+    -moz-border-radius: 17px 15px 126px 18px;
+    -webkit-border-radius: 17px 15px 126px 18px;
+    border: 5px solid #000000;
+    -webkit-box-shadow: 0px 0px 22px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 22px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 22px 5px rgba(0,0,0,0.75);
+}
+.vendas .console{
+    display:flex;
+    align-items: center;
+}
+.vendas .console h2{
+    padding-left:10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.vendas .console .img-console{
+    width: 20%;
+    padding-top:20%;
+    background-image: url(../Imagens/PS4.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.vendas .produtos{
+    text-align:justify;
+}
+.vendas .produto-single{
+   text-align: center;
+   width: 370px;
+   height: 640px;
+   background-color:#efefef ;
+   padding:20px 0;
+   border-radius:15px;
+   -webkit-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px -2px rgba(0,0,0,0.75);
+    display:inline-block;
+    margin: 10px 1% ;
+    align-items: center;
+}
+.vendas .produto-single img{
+   width:200px;
+   height:250px;
+}
+.vendas .produto-single h2{
+   font-size:22px;
+   margin: 20px 0 10px 0;
+}
+.vendas .produto-single .especificacao{
+    text-align: justify;
+    width: 90%;
+    margin:0 auto;
+}
+.vendas .produto-single .especificacao ul{
+   list-style: none;
+}           
+.vendas .produto-single .especificacao ul li{
+   margin-top:3px;
+}
+.vendas .produto-single input[type="submit"]{
+   padding:10px;
+   width: 200px;
+   margin-top:30px;
+   background-color:#0000ff;
+   color:white;
+   border:0;
+   border-radius:5px;
+   cursor:pointer;
+   font-size:18px;
+   font-weight: 400;
+}
+.vendas .produto-single input[type="submit"]:hover{
+background: #01016e;
+}
